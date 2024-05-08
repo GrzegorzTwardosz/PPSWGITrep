@@ -7,6 +7,8 @@ void UIntToHexStr(unsigned int uiValue, char pcStr[]) {
 	
 	unsigned char ucNibbleCounter;
 	unsigned char ucCurrentNibble;
+	
+	//git
 
 	pcStr[0] = '0';
 	pcStr[1] = 'x';
